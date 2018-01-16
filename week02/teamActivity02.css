@@ -1,14 +1,14 @@
 #hover_alert {
     color:rgb(255, 0, 0);
-    font-size:small;
+    font-size: 50px;
 }
 
 #css_bold {
     color: rgb(0, 255, 0);
-    font-size: medium;
+    font-size: 20px;
 }
 
 #change_color {
     color: rgb(0, 0, 255);
-    font-size: large;
+    font-size: 80px;
 }
