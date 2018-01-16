@@ -3,12 +3,24 @@
     font-size: 60px;
 }
 
+#hover_alert:hover {
+    font-weight: bold;
+}
+
 #css_bold {
     color: rgb(0, 255, 0);
     font-size: 20px;
 }
 
+#css_bold:hover {
+    font-weight: bold;
+}
+
 #change_color {
     color: rgb(0, 0, 255);
     font-size: 120px;
+}
+
+#change_color:hover {
+    font-weight: bold;
 }
