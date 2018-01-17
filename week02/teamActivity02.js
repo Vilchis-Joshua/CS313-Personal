@@ -8,5 +8,5 @@ function changeColor() {
 
     var color_change = document.getElementById('form1').elements.namedItem('change_color_button').value;
 
-    div_color.value = color_change;
+    document.getElementById('hover_alert').style.backgroundColor = color_change;
 }
