@@ -2,7 +2,7 @@ function buttonAlert() {
     alert("Clicked");
 }
 
-function changeColor(color) {
-    document.getElementById('hover_alert').style.color = color;
-
+function changeColor(color, color_change) {
+    //document.getElementById('hover_alert').style.color = color;
+    color_change = color;
 }
