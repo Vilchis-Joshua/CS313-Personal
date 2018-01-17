@@ -2,8 +2,11 @@ function buttonAlert() {
     alert("Clicked");
 }
 
-function changeColor(color, color_change) {
+function changeColor() {
     //document.getElementById('hover_alert').style.color = color;
-    window.document.getElementById('hover_alert').innerHTML = color;
+    var div_color = document.getElementById('hover_alert');
 
+    var color_change = document.getElementById('form1').elements.namedItem('change_color_button').value;
+
+    div_color.value = color_change;
 }
