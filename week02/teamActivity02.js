@@ -18,16 +18,16 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $("#fadeout").click(function () {
-        $("hover_alert").fadeOut(2000);
-        $("css_bold").fadeOut("fast");
-        $("change_color").fadeOut(4000);
+        $("#hover_alert").fadeOut(2000);
+        $("#css_bold").fadeOut("fast");
+        $("#change_color").fadeOut(4000);
     });
 });
 
 $(document).ready(function () {
     $("#fadein").click(function () {
-        $("hover_alert").fadeIn(2000);
-        $("css_bold").fadeIn("slow");
-        $("change_color").fadeIn(4000);
+        $("#hover_alert").fadeIn(2000);
+        $("#css_bold").fadeIn("slow");
+        $("#change_color").fadeIn(4000);
     });
 });
