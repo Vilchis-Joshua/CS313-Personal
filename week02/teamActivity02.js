@@ -10,6 +10,8 @@ function changeColor() {
     div_to_change.style.backgroundColor = color_change;
 }
 
-$("#jquery_click_me_button").click(function () {
-    $("#css_bold").hide();
+$(document).ready(function () {
+    $("#jquery_click_me_button").click(function () {
+        $("#css_bold").hide();
+    });
 });
