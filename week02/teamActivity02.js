@@ -13,5 +13,5 @@ function changeColor() {
 $(document).ready(function () {
     $("jquery_click_me_button").click(function () {
         $("css_bold").hide();
-    })
+    });
 });
