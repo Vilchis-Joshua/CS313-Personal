@@ -12,6 +12,6 @@ function changeColor() {
 
 $(document).ready(function () {
     $("#jquery_click_me_button").click(function () {
-        $("#css_bold").hide();
+        $("#css_bold").css("background-color", "$(#jquery_input)");
     });
 });
