@@ -9,3 +9,5 @@ function changeColor() {
     var color_change = document.getElementById('form1').elements.namedItem('change_color_button').value;
     div_to_change.style.backgroundColor = color_change;
 }
+
+$
